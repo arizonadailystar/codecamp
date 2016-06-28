@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Class 1: January 14, 2016</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../css/reveal.css">
+		<link rel="stylesheet" href="../css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		<style>
+			.highlight {
+				color: yellow;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-markdown>
+          ## Welcome
+
+          ### UAJ: 484 Mobile Apps
+				</section>
+
+        <section data-markdown>
+          ## Introductions
+
+          * What is your name?
+          * Does your phone run Android, iOS, Windows or something else?
+          * What is the first app you check in the morning?
+          * What is your "go to" news app?
+				</section>
+
+        <section data-markdown>
+          ### Course overview
+
+          http://uaappclass.github.io
+        </section>
+
+        <section data-markdown>
+          ### App focus and scope
+        </section>
+
+        <section data-markdown>
+          ### What is a "Social Good" app?
+
+          It is a mobile application that solves societal problems
+
+          The apps you pitch should solve a societal problem
+        </section>
+
+        <section data-markdown>
+          ### Data sources
+
+          * Data entered directly in app
+            * By the developer
+            * By the user
+          * From a feed
+          * From a data file
+            * Text, XML, JSON, Spreadsheet
+        </section>
+
+        <section data-markdown>
+          ### What is a "web app"?
+
+          ### What is a "native app"?
+        </section>
+
+        <section data-markdown>
+          ![Image](/images/google_web_native.png)
+        </section>
+
+        <section data-markdown>
+          ![Image](/images/mobile_comparison.jpg)
+        </section>
+
+        <section data-markdown>
+          ### Native: Pros
+
+          * Can use more of the phone's capabilities
+          * Richer experience
+          * Can run faster
+          * Do not always require internet or cell access
+          * Rich set of APIs
+        </section>
+
+        <section data-markdown>
+          ### Native: Cons
+
+          * Must be developed for multiple platforms
+          * Costly
+          * Time consuming to write
+          * Bug fixes take longer to release
+          * Approval process can be time consuming
+          * Possibility of app rejection
+          * Takes up space on a device
+        </section>
+
+        <section data-markdown>
+          ### Web apps: Pros
+
+          * More cost effective
+          * Can work on multiple devices
+          * Search engines can access the page
+          * Updates made in real time
+          * No space required
+          * Changes appear in near real time
+        </section>
+
+        <section data-markdown>
+          ### Web apps: Cons
+
+          * Can’t use all the device capabilities (Accelerometer)
+          * Requires internet connection
+          * Loads slower
+          * Look and feel seem neither Apple or Google
+          * Limited by HTML, CSS and Javascript
+        </section>
+
+        <section data-markdown>
+          ### Hybrid apps
+
+          A native app “wraps” the web app and embeds a browser in the downloaded application.
+
+          Allows access to notifications and other device capabilities
+
+          Allows the builder to have a presence in the app store without writing all new application.
+        </section>
+
+        <section data-markdown>
+          ### Assignment
+        </section>
+
+			</div>
+		</div>
+
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../plugin/zoom-js/zoom.js', async: true },
+					{ src: '../plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -2,22 +2,30 @@
 layout: default
 ---
 
-<div class="home">
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      Code Camp - Arizona Daily Star
+    </h3>
+  </div>
+  <div class="panel-body">
+    <dl>
+      <dt>AAA</dt>
+      <dd>BBB</dd>
+    </dl>
+    <dl>
+      <dt>Class time</dt>
+      <dd>Tuesdays, 10:00 am -12:00 pm</dd>
+    </dl>
+    <dl>
+      <dt>Class location</dt>
+      <dd>TBD</dd>
+    </dl>
+  </div>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="list-group">
+  {% for post in site.posts reversed %}
+    <a href="{{ site.baseurl }}{{ post.url }}" class="list-group-item">{{ post.title }}</a>
+  {% endfor %}
 </div>

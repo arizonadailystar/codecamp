@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Camp</title>
+    <description>Learn HTML, CSS and Javascript</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 28 Jun 2016 13:08:45 -0700</pubDate>
+    <lastBuildDate>Tue, 28 Jun 2016 13:08:45 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Class 6 Tuesday, August 9</title>
+        <description>&lt;h3 id=&quot;discussion&quot;&gt;Discussion&lt;/h3&gt;
+
+&lt;h3 id=&quot;activity&quot;&gt;Activity&lt;/h3&gt;
+
+&lt;h3 id=&quot;assignment&quot;&gt;Assignment&lt;/h3&gt;
+</description>
+        <pubDate>Mon, 27 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/2016/06/27/class-06.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/06/27/class-06.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Class 5 Tuesday, August 2</title>
+        <description>&lt;h3 id=&quot;discussion&quot;&gt;Discussion&lt;/h3&gt;
+
+&lt;h3 id=&quot;activity&quot;&gt;Activity&lt;/h3&gt;
+
+&lt;h3 id=&quot;assignment&quot;&gt;Assignment&lt;/h3&gt;
+</description>
+        <pubDate>Mon, 27 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/2016/06/27/class-05.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/06/27/class-05.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Class 4 Tuesday, July 26</title>
+        <description>&lt;h3 id=&quot;discussion&quot;&gt;Discussion&lt;/h3&gt;
+
+&lt;h3 id=&quot;activity&quot;&gt;Activity&lt;/h3&gt;
+
+&lt;h3 id=&quot;assignment&quot;&gt;Assignment&lt;/h3&gt;
+</description>
+        <pubDate>Mon, 27 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/2016/06/27/class-04.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/06/27/class-04.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Class 3 Tuesday, July 19</title>
+        <description>&lt;h3 id=&quot;discussion&quot;&gt;Discussion&lt;/h3&gt;
+
+&lt;h3 id=&quot;activity&quot;&gt;Activity&lt;/h3&gt;
+
+&lt;h3 id=&quot;assignment&quot;&gt;Assignment&lt;/h3&gt;
+</description>
+        <pubDate>Mon, 27 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/2016/06/27/class-03.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/06/27/class-03.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Class 2 Tuesday, July 12</title>
+        <description>&lt;h3 id=&quot;discussion&quot;&gt;Discussion&lt;/h3&gt;
+
+&lt;h3 id=&quot;activity&quot;&gt;Activity&lt;/h3&gt;
+
+&lt;h3 id=&quot;assignment&quot;&gt;Assignment&lt;/h3&gt;
+</description>
+        <pubDate>Mon, 27 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/2016/06/27/class-02.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/06/27/class-02.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Class 1 Tuesday, July 5</title>
+        <description>&lt;h3 id=&quot;discussion&quot;&gt;Discussion&lt;/h3&gt;
+
+&lt;h3 id=&quot;activity&quot;&gt;Activity&lt;/h3&gt;
+
+&lt;h3 id=&quot;assignment&quot;&gt;Assignment&lt;/h3&gt;
+</description>
+        <pubDate>Mon, 27 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/2016/06/27/class-01.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/06/27/class-01.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
