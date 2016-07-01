@@ -9,10 +9,8 @@
 title: Code Camp
 email: rwisner@tucson.com
 description: Learn HTML, CSS and Javascript
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: 
-github_username:
+baseurl: "/codecamp" # the subpath of your site, e.g. /blog
+url: "https://arizonadailystar.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
